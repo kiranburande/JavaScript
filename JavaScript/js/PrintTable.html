@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print The <Table></Table></title>
+</head>
+<body>
+    <h3>Enter Number To Print Table</h3>
+    <input type="number" id="tableNum" placeholder="Enter table number">
+    <button onclick="printTable()">Get Table</button><br>
+    <output id="op"></output>
+
+    <script>
+        function printTable()
+        {
+            let tn, res;
+            tn= tableNum.value;
+            op.innerHTML = "";
+
+            for(let i=1; i<=10; i++)
+        {
+            res = tn*i;
+            //document.write("<h3>"+tn+"*"+i+"="+res+"</h3><br>");
+            op.innerHTML += tn+"*"+i+"="+res+"<br>";
+        }
+        }
+    </script>
+
+
+</body>
+</html>

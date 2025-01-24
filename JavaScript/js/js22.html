@@ -1,0 +1,28 @@
+<!-- Example on Control Statements -->
+<h3>Demo on For loop</h3>
+<script>
+    document.write("<label>Date of Birth</label><br>");
+    document.write("<select id='dt'>");
+    for(let d=1;d<=31;d++)
+    {
+        document.write("<option>"+d+"</option>");
+    }
+    document.write("</select>");
+
+
+    //month creation
+    document.write("<select id='m'>")
+        let months=['January','February','March','April','May','june','July','August','September','October','November','December'];
+        for(let i=0;i<months.length;++i)
+    {
+        document.write("<option>"+months[i]+"</option>");
+    }
+    document.write("</select>");
+
+    //year creation
+    document.write("<select id='y'>");
+        for(let y=2025;y>=1905;y--)
+        document.write("<option>"+ y +"</option>");
+            document.write("</select>");
+
+</script>

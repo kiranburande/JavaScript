@@ -1,0 +1,55 @@
+<!-- demo on js -->
+ <h3>demo on operators</h3>
+ <script>
+    let x=15, y=7;
+
+    //arithmetic ope +- * / %  **
+
+    document.write(x+y,`<br>`);  //  additiion
+    document.write(x-y,`<br>`);  //  substraction
+    document.write(x*y,`<br>`);  //  multiplication
+    document.write(x**y,`<br>`);  // cube 
+    document.write(x/y,`<br><br>`); 
+    // relational operator   >  <   >=    <=    ==  !=   ===(strict equal coparision)   !==(strict not equal coparision) 
+    document.write(x>=0, `<br>`);
+    let z="7";
+    document.write(y==z, `<br>`);   // focus data not on datatypes
+    document.write(y===z, `<br>`);    // focus on data and datatypes both
+    document.write(y!=z, `<br>`);
+    document.write(y!==z, `<br><br>`);
+
+    // logical operator  &&   ||   !   //boolean and(double ampercent) ,  boolean or(double pipe), not(exclamation)
+    document.write(x>=0 && x<=10,`<br>`);
+    document.write(!(y<0),`<br><br>`);
+
+    // assignment operator    =
+    //shorthand operator  +=,  -=, *=, /=, %=, **=
+    x=x+30;  //x+=30
+    y*=10;   // y=y*10
+    document.write(x,`<br>`,y,`<br><br>`); 
+
+    // concatenation operator    +   (if there is one pr more operand of type should be string) 
+    document.write("rama "+"rao<br>");
+    document.write(100+"mangoes<br>");
+    document.write(22+true,"<br><br>");
+
+    // unary operators       ++ increment operator       ++a(pre)    a++(post)
+    //                       -- decrement operators      --a(pre)    a--(post)
+    document.write(++x,`<br>`);
+    document.write(x++,`<br>`);
+    document.write(x,`<br><br>`);
+
+    //  let res=10*++x;  //480
+    let res=10*x++;      //470
+    document.write(res,`<br>`);
+    document.write(x,`<br>`);
+    document.write(10,`<br><br>`); 
+
+    //conditional operator    ?:   cond? true:false
+    document.write(y%2===0?"Even number":"odd number",`<br>`);
+
+
+
+
+
+ </script>

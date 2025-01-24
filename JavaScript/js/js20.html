@@ -1,0 +1,41 @@
+<!-- Demo -->
+<h3>Demo on switch case</h3>
+<script>
+    // it supports all datatypes
+    let i;
+    i=10.45;
+    switch(i)
+    {
+        case 10.45 : document.writeln("Yes"); break;
+        default : document.writeln("No")
+    }
+
+    // it supports conditions
+    let a= -40;
+    switch(a>=0)
+    {
+        case true :  document.writeln("+Ve"); break;
+        case false :  document.writeln("-Ve"); 
+    }
+
+    // we can use variables with in "case"
+    let x=10, y=20, n=10;
+    switch(n)
+    {
+        case x :  document.writeln("X"); break;
+        case y :  document.writeln("Y"); break;
+        default :  document.write("None"); break;
+    }
+
+    // we can use values with in "case"
+    let  m=10;
+
+    switch(m)
+    {
+        case 10 :  document.writeln("X"); break;
+        case 20 :  document.writeln("Y"); break;
+        default :  document.writeln("None"); break;
+    }
+
+
+</script>

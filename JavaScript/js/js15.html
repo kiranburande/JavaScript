@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="interest.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="calc">
+        <h2>Interest Calc</h2>
+        <p>
+            <label for="pamt">Principle Amount</label><br>
+            <input type="number" id="pamt" autofocus>
+            <span>&#8377;</span>
+        </p>
+        <p>
+            <label for="time">Time</label><br>
+            <input type="number" id="time">
+            <span>Year(s)</span>
+        </p>
+        <p>
+            <label for="roi">Rate of Interest</label><br>
+            <input type="number" id="roi">
+            <span>%</span>
+        </p>
+        <p align="center">
+            <button onclick="calcAmount()">Calc Amount</button>
+        </p>
+        <p align="right">
+            <output id=""></output>
+        </p>
+    </div>
+    
+</body>
+</html>
