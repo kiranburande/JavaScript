@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let buyPrice = 3500, profit, VAT, serviceCharge, sellingPrice;
+        sellingPrice = buyPrice*1.27;
+        profit = buyPrice*0.27;
+        VAT = sellingPrice *0.127;
+        serviceCharge = sellingPrice * 0.0387;
+
+        console.log("Selling Price: Rs. "+sellingPrice.toFixed(2));
+        console.log("Profit: Rs. "+profit.toFixed(2));
+        console.log("VAT: Rs. "+VAT.toFixed(2));
+        console.log("Service Charge: Rs. "+serviceCharge.toFixed(2));
+        console.log("Total Selling Price: Rs. "+(sellingPrice+VAT+serviceCharge).toFixed(2));
+
+    </script>
+</body>
+</html>
