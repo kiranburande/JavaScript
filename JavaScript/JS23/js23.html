@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let month = parseInt(prompt('Enter the Month Number to display no of days:'));
+        switch(month)
+        {
+            case 1: case 3: case 5: case 7:case 8: case 10:case 12 : {console.log('31 days');break;}
+            case 4: case 6: case 9: case 11:{ console.log('30 days');break;}
+            case 2: {console.log('28 or 29 days (depending on leap year)'); break;}
+            default : console.log('Invalid month number!')
+        }
+    </script>
+</body>
+</html>
